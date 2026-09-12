@@ -7,11 +7,12 @@
 | STT | Họ và tên | Mã học viên | Vai trò trong nhóm (VD: facilitator, workflow, research, writer) |
 |-----|-----------|-------------|---------------------------------------------------------------|
 | 1   | Đỗ Trương Thành Ân | 2A202602889 | Facilitator |
-|2   | Trần Tuấn Tú |             |                                                               |
-| 3   |           |             |                                                               |
-| 4   |           |             |                                                               |
+| 2   | Trần Tuấn Tú | 2A202602840 | Writer |
+| 3   | Hoàng Văn Dương | 2A202602447 | Research |
+| 4   | Lê Thanh Trường | 2A202602492 | Workflow |
+| 5   | Dương Hải Minh | 2A202602608 | Leader |
 
-**Candidate problem nhóm chọn (1 câu):**
+**Candidate problem nhóm chọn (1 câu):** Ghi chép thông tin thủ công làm giảm hiệu suất và kết nối khách hàng
 
 
 ---
