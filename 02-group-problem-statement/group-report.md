@@ -6,8 +6,8 @@
 
 | STT | Họ và tên | Mã học viên | Vai trò trong nhóm (VD: facilitator, workflow, research, writer) |
 |-----|-----------|-------------|---------------------------------------------------------------|
-| 1   |           |             |                                                               |
-| 2   |           |             |                                                               |
+| 1   | Đỗ Trương Thành Ân | 2A202602889 | Facilitator |
+|2   | Trần Tuấn Tú |             |                                                               |
 | 3   |           |             |                                                               |
 | 4   |           |             |                                                               |
 
@@ -22,18 +22,22 @@
 
 | # | Người đưa ra | Candidate problem | Người gặp vấn đề | Điểm nghẽn | Cảm nhận nhanh của nhóm |
 |---|---|---|---|---|---|
-| 1 | | | | | |
-| 2 | | | | | |
-| 3 | | | | | |
-| 4 | | | | | |
-| 5 | | | | | |
-| 6 | | | | | |
-| 7 | | | | | |
-| 8 | | | | | |
-| 9 | | | | | |
-| 10 | | | | | |
-| 11 | | | | | |
-| 12 | | | | | |
+| 1 | Đỗ Trương Thành Ân | Ghi chép thông tin thủ công làm giảm hiệu suất và kết nối khách hàng | Nhân viên bán hàng | Cặm cụi ghi chép thông tin làm đứt gãy tương tác mắt (eye-contact) và cảm xúc của khách hàng. Nếu để đến cuối mới nhập liệu, nhân viên dễ bị quên, nhớ nhầm số điện thoại hoặc sót các chi tiết quan trọng về nhu cầu của khách. | Vấn đề trực quan, dễ nhận thấy. Giải pháp đề xuất khá thành hình, phù hợp để trình bày |
+| 2 | Đỗ Trương Thành Ân | Kế toán mất quá nhiều thời gian dò đối chiếu thủ công từng khoản tiền gửi ngân hàng với đơn hàng trên hệ thống do khách hàng thường ghi chú chuyển khoản sai cú pháp, dẫn đến chậm trễ tiến độ giao hàng. | Kế toán | Việc khớp lệnh thủ công hoàn toàn bế tắc và mất thời gian khi nội dung chuyển khoản bị sai mã đơn, thiếu chữ, hoặc chỉ ghi tên/số điện thoại. Kế toán buộc phải tự suy luận dựa trên số tiền lẻ hoặc nhắn tin hỏi lại bộ phận Sales để xác nhận, làm gián đoạn toàn bộ luồng công việc. | Vấn đề trực quan, nhưng chưa cần AI để xử lý, hard code được |
+| 3 | Đỗ Trương Thành Ân | Việc cập nhật tồn kho thủ công gây ra độ trễ dữ liệu | Quản lý cửa hàng | Số lượng tồn kho trên các nền tảng online không được cập nhật theo thời gian thực (real-time) cùng với số lượng vật lý. | Ý tưởng hay |
+| 4 |  Trần Tuấn Tú | Giải cứu "nghĩa địa ghi chú": Xử lý tồn đọng 200+ quick note & bookmark do lịch học 8h/ngày dồn dập | Người học cường độ cao (học 9h-18h, hay lưu ý tưởng vội) | Mất ngữ cảnh ban đầu khi mở lại; việc dọn dẹp mất 2-4h và gây ngợp tâm lý nên bỏ xó | Pain point rất thật và phổ biến; AI có thế mạnh rõ rệt về gom cụm (clustering) và làm giàu ngữ cảnh |
+| 5 | Trần Tuấn Tú | Tra cứu kiến thức trong kho Slide bài giảng PDF (10-15 file, 60-100 trang/file) khi làm lab/ôn thi | Sinh viên/học viên cần tìm lại công thức, định nghĩa để làm bài | Ctrl+F không hiệu quả nếu giảng viên dùng từ đồng nghĩa hoặc giải thích bằng hình ảnh (mất 20-30') | Bài toán RAG/Semantic search kinh điển, phạm vi hẹp và dữ liệu khép kín, rất khả thi |
+| 6 | Trần Tuấn Tú | Tối ưu luồng tổng hợp & chắt lọc Tech News hằng ngày (5-7 kênh tin) vào buổi tối | Người học tech/AI cần cập nhật xu hướng liên tục | Mất 35' đọc lướt loại bỏ tin rác, clickbait và tin trùng lặp nội dung giữa các kênh | Workflow rõ ràng; có thể giải quyết tốt bằng AI đọc toàn văn + đánh giá + summary kèm link gốc |
+| 7 | Lê Thanh Trường | Đọc tài liệu lab để hiểu yêu cầu nộp bài (40-60'/lab) | Mọi học viên | Tổng hợp yêu cầu rải rác từ 3 file | Ai cũng gật đầu — pain chung rõ nhất |
+| 8 | Lê Thanh Trường | Luyện viết tiếng Anh không có feedback ngay (chờ 2-3 ngày) | Người tự học tiếng Anh | Tự review không chuẩn + feedback trễ  | Hay nhưng là pain cá nhân, ít người trong nhóm gặp |
+| 9 | Lê  Thanh Trường | Viết reflection sau lab không nhớ chi tiết (30-45') | Mọi học viên | Trí nhớ sau lab 4 tiếng | Thú vị, có thể giải bằng process fix |
+| 10 | Hoàng Văn Dương | Phân nhóm các output sai sau khi đánh giá model/prompt trên một batch khoảng 200 mẫu | AI/ML Engineer hoặc Model Evaluator; Tech Lead sử dụng báo cáo lỗi để chọn việc cần sửa | Phải đọc input, actual output, expected output và context rồi gán error type, severity và root cause; bước này mất khoảng 150 trong tổng số 210 phút/batch | Sát công việc AI Engineer, input/output rõ và có thể đo trên một batch trong lab; phù hợp với Workflow kết hợp Rule, AI và human review |
+| 11 | Hoàng Văn Dương | Tổng hợp báo cáo tiến độ thí nghiệm AI hằng tuần từ notebook, experiment log và ghi chú rời rạc | AI Engineer lập báo cáo; Tech Lead và thành viên dự án đọc để quyết định thí nghiệm tiếp theo | Tìm đúng run, copy metric và đối chiếu dataset, config, model version từ nhiều nguồn mất khoảng 40 trong tổng số 85 phút/báo cáo | Tác vụ lặp lại, workflow rõ và dễ đo before/after; phần lấy metric có thể dùng Rule/script, còn AI chỉ nên draft narrative có nguồn dẫn |
+| 12 | Hoàng Văn Dương | Trích xuất decision và action item sau các cuộc họp kỹ thuật rồi đồng bộ sang công cụ quản lý công việc | Người điều phối/người ghi biên bản; người tham dự và người được giao action item | Đọc transcript/notes, xác định decision, viết lại task và tìm owner/deadline còn thiếu mất khoảng 17 trong tổng số 25 phút/cuộc họp | Actor và output rõ, có thể prototype trên 5–10 transcript; cần giữ facilitator ở bước duyệt để tránh tạo hoặc giao nhầm task |
+| 13 | Dương Hải Minh | Người đi đường đi vào đường bị ngập vào mỗi khi trời mưa ngập lụt | Người tham gia giao thông | Thiếu thông tin cảnh báo lộ trình ngập lụt theo thời gian thực khiến người dân không thể chủ động chọn hướng đi an toàn lúc tan tầm. | Vấn đề rất thực tế nhưng độ khả thi phụ thuộc hoàn toàn vào nguồn cấp dữ liệu ngập lụt (sensor/camera của thành phố), chưa rõ hệ thống hiện tại có open API không. |
+| 14 | Dương Hải Minh | Mỗi ngày phải tập hợp task trên Jira về Google doc cho team | Người tổng hợp task và Team QA | Thao tác copy-paste lặp đi lặp lại hàng ngày để gom dữ liệu phân mảnh từ nhiều dashboard Jira khác nhau vào một nơi. | Rất dễ tự động hóa bằng API hoặc Workflow, nhưng cần đánh giá kỹ xem việc cấu hình lại trực tiếp Dashboard trên Jira có tối ưu hơn việc phải tạo Doc trung gian hay không. |
+| 15 | Dương Hải Minh | Khi có thông báo trên khóa học thì ban tổ chức cần phải thông báo ở nhiều nền tảng | Ban tổ chức và Học viên | Quy trình đăng tải thủ công cùng một nội dung lên nhiều kênh (Email, Zalo, Facebook...) tốn thời gian và dễ xảy ra sai sót, bỏ sót học viên. | Problem này rất phù hợp để làm Automation Workflow/Agent. Tuy nhiên, nhóm cần khảo sát xem thị trường đã có sẵn các agent làm tốt chưa để tránh làm lại "bánh xe". |
+
 
 ### 3.2. Gom trùng / cluster (gom 9-12 ý thành 3-4 cụm)
 

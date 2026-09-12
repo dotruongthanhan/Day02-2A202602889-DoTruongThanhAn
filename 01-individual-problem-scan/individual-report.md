@@ -101,7 +101,7 @@ Thời điểm / bối cảnh: Tại không gian cửa hàng vật lý, trong qu
 Current workflow 3-7 bước:
 1. Nhân viên tiếp đón và bắt đầu trò chuyện để tìm hiểu nhu cầu của khách hàng. (1')
 2. Khách hàng chia sẻ các thông tin (Tên, số điện thoại, bệnh lý, ngân sách, vấn đề đang gặp phải). (5')
-3. Nhân viên xin phép ngắt nhịp giao tiếp để thiết bị ra ghi chép, hoặc chọn cách ghi nhớ trong đầu để tiếp tục nói chuyện. (3')
+3. Nhân viên xin phép ngắt nhịp giao tiếp để thiết bị ra ghi chép. (3')
 4. Nhân viên đưa khách đi xem sản phẩm và chốt sale (5').
 5. Sau khi khách hàng thanh toán hoặc rời đi, nhân viên mới ngồi nhớ lại hoặc nhìn sổ nháp để nhập dữ liệu lên hệ thống CRM/phần mềm quản lý (5').
 
