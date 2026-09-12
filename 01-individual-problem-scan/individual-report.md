@@ -99,21 +99,21 @@ Actor: Nhân viên bán hàng trực tiếp
 Thời điểm / bối cảnh: Tại không gian cửa hàng vật lý, trong quá trình khách hàng đang xem sản phẩm, đặc biệt là vào các khung giờ cao điểm hoặc trong các phiên tư vấn sản phẩm giá trị cao cần khai thác nhiều thông tin.
 
 Current workflow 3-7 bước:
-1. Nhân viên tiếp đón và bắt đầu trò chuyện để tìm hiểu nhu cầu của khách hàng.
-2. Khách hàng chia sẻ các thông tin (Tên, số điện thoại, bệnh lý, ngân sách, vấn đề đang gặp phải).
-3. Nhân viên xin phép ngắt nhịp giao tiếp để thiết bị ra ghi chép, hoặc chọn cách ghi nhớ trong đầu để tiếp tục nói chuyện.
-4. Nhân viên đưa khách đi xem sản phẩm và chốt sale.
-5. Sau khi khách hàng thanh toán hoặc rời đi, nhân viên mới ngồi nhớ lại hoặc nhìn sổ nháp để nhập dữ liệu lên hệ thống CRM/phần mềm quản lý.
+1. Nhân viên tiếp đón và bắt đầu trò chuyện để tìm hiểu nhu cầu của khách hàng. (1')
+2. Khách hàng chia sẻ các thông tin (Tên, số điện thoại, bệnh lý, ngân sách, vấn đề đang gặp phải). (5')
+3. Nhân viên xin phép ngắt nhịp giao tiếp để thiết bị ra ghi chép, hoặc chọn cách ghi nhớ trong đầu để tiếp tục nói chuyện. (3')
+4. Nhân viên đưa khách đi xem sản phẩm và chốt sale (5').
+5. Sau khi khách hàng thanh toán hoặc rời đi, nhân viên mới ngồi nhớ lại hoặc nhìn sổ nháp để nhập dữ liệu lên hệ thống CRM/phần mềm quản lý (5').
 
 Bottleneck: Bước 3, 5. Việc cặm cụi ghi chép (bước 3) làm đứt gãy tương tác mắt (eye-contact) và cảm xúc của khách hàng. Nếu để đến cuối mới nhập liệu (bước 5), nhân viên dễ bị quên, nhớ nhầm số điện thoại hoặc sót các chi tiết quan trọng về nhu cầu của khách (nhất là khi phải tiếp nhiều khách liên tục).
 
 Impact: Trải nghiệm khách hàng bị suy giảm (cảm thấy không được chú ý lắng nghe); Thất thoát hoặc sai lệch dữ liệu khách hàng tiềm năng (lead); Giảm hiệu suất phục vụ trong giờ cao điểm.
 
-Success metric: Thời gian thao tác nhập liệu của nhân viên (giảm từ vài phút xuống 0); Tỷ lệ hồ sơ khách hàng bị điền thiếu/sai thông tin (Missing/Error rate); Tỷ lệ chuyển đổi khách hàng tại cửa hàng (Conversion rate).
+Success metric: Thời gian nhập liệu của nhân viên (giảm từ vài phút xuống 0); Tỷ lệ hồ sơ khách hàng bị điền thiếu/sai thông tin (Missing/Error rate); Tỷ lệ chuyển đổi khách hàng tại cửa hàng (Conversion rate).
 
 Non-AI alternative: In sẵn các phiếu điền thông tin (Form) cứng hoặc cung cấp một mã QR để khách hàng tự quét và tự điền thông tin trên điện thoại của họ trong lúc chờ đợi; Hoặc ghép cặp 2 nhân viên cho 1 lượt khách (1 người chuyên tư vấn, 1 người chuyên ghi chép).
 
-AI hypothesis: Trang bị cho nhân viên ứng dụng AI (có khả năng Voice-to-Text và trích xuất thực thể - NER) chạy ngầm để thu thập thông tin (dưới )
+AI hypothesis: Trang bị cho nhân viên ứng dụng AI (có khả năng Voice-to-Text và trích xuất thực thể - Named Entity Recognition) chạy ngầm để thu thập thông tin
 
 Quick gut:
 [ ] No AI / process fix
